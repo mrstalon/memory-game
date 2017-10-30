@@ -1,0 +1,222 @@
+.game-square {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.game-square > div {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    transition: 400ms;
+}
+
+.game-square > div > div {
+    height: 50%;
+}
+
+body > *{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.flip > div {
+    top: -100%;
+}
+
+body{
+    background-color: turquoise;
+}
+
+#game-medium {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+#game-easy{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+#game-hard{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+.square-0 {
+    background-image: url("/images/js-image.jpg");
+}
+
+.square-1 {
+    background-image: url("/images/java.png");
+}
+
+.square-2 {
+    background-image: url("/images/python.jpg");
+}
+
+.square-3 {
+    background-image: url("/images/c.jpg");
+}
+
+.square-4 {
+    background-image: url("/images/html.jpg");
+}
+
+.square-5 {
+    background-image: url("/images/css.jpg");
+}
+
+.square-6 {
+    background-image: url("/images/ph.png");
+}
+
+.square-7 {
+    background-image: url("/images/react.png");
+}
+
+.square-8 {
+    background-image: url("/images/rs-school.png");
+}
+
+.square-9 {
+    background-image: url("/images/node.jpg");
+}
+
+.square-10{
+    background-image: url("/images/ruby.jpg");
+}
+
+.square-11{
+    background-image: url("/images/sql.png");
+}
+
+.square-12{
+    background-image: url("/images/php.png");
+}
+
+.square-13{
+    background-image: url("/images/golang.png");
+}
+
+.square-14{
+   background-image: url("/images/objective.jpg");
+}
+
+.square-15{
+    background-image: url("/images/vue.jpg");
+}
+
+
+
+#reset-button{
+    margin: auto;
+}
+
+#menu-return-button{
+    margin: auto;
+}
+
+.timer-container > *{
+   display: inline-block;
+}
+
+.timer-container{
+    background-color: cadetblue;
+    border-color: darkcyan;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#game-menu{
+    margin: auto;
+    background-color: gray;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 11px;
+}
+
+.difficulty-buttons{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+button{
+    background-color: cadetblue;
+    width: 88px;
+    height: 33px;
+    border-color: darkcyan;
+}
+
+h1{
+    margin-left: 80px;
+}
+
+li{
+    padding: 3px;
+}
+
+ol{
+    width: 364px;
+}
+
+.difficulty-buttons > h3{
+    margin-left: 8px;
+}
+
+.card-shirt-chooser > h3{
+    margin-left: 70px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+#game-menu{
+    color: powderblue;
+}
+
+.card-shirt-chooser > img{
+    margin-left: 21px;
+    padding: 2px;
+}
+
+.card-shirt-chooser > img:hover{
+    background-color: aqua;
+}
+
+.end-game-alert{
+    margin-left: 670px;
+    margin-top: 300px;
+    background-color: gray;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.try-again-button{
+    margin-left: 163px;
+}
+

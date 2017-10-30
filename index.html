@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+
+    <link rel="stylesheet" type="text/css" id="card-shirt-style" href="Styles/default-card-shirt.css">
+    <link rel="stylesheet" type="text/css" href="Styles/main-styles.css">
+
+
+</head>
+<body>
+
+<div id="container">
+    <div id="game-menu">
+        <h1>How to play:</h1>
+        <ol>
+            <li>Select two cards to try to match the pictures.</li>
+            <li>If you match the pictures you can go again.</li>
+            <li>If they don't match it is the computer turn them.</li>
+            <li>The player that finds all pairs wins!</li>
+            <li>Have fun!</li>
+        </ol>
+
+
+        <div class="card-shirt-chooser">
+            <h3> Choose your card's shirt: </h3>
+            <img src="images/windows-shirt.png" onclick="changeCardShirtsToWindowsShirt()">
+            <img src="images/android-shirt.png" onclick="changeCardShirtsToAndroidShirt()">
+            <img src="images/apple-shirt.jpg" onclick="changeCardShirtsToAppleShirt()">
+        </div>
+
+        <div class="difficulty-buttons">
+            <h3> Choose game difficulty:</h3>
+            <button onclick="gameModeEasy()">Easy</button>
+            <button onclick="gameModeMedium()">Medium</button>
+            <button onclick="gameModeHard()">Hard</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="JavaScript/GameSquare.js"></script>
+
+<script src="JavaScript/GameLogic.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+.game-square > div > div:first-child {
+      background-image: url("/images/apple-shirt.jpg");
+}
